@@ -1,0 +1,84 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+         .square1{
+            width: 150px;
+             height: 150px;
+             background-color: tomato;
+             /* position: static;this is default posiion  */
+             position:fixed;
+             top:5px ;
+             right:0px; ;
+          
+            }
+         .square2{
+                width: 150px;
+             height: 150px;
+            background-color: springgreen;
+            }
+                        
+        .para1{
+            background-color: violet;
+            position:fixed;
+            top: 0px;
+        }
+        .main{
+            height: 300px;
+            width: 500px;
+            background-color: blue;
+            position: relative;
+        }
+        .box{
+            height: 100px;
+            width: 200px;
+            background-color:rebeccapurple;
+            position: absolute;
+            /* we cannot apply bottom and right position here */
+            bottom: 0px;
+            right: 0px;
+            /* here top: 0px; is default position of an element which is relatively position */
+        }
+         /* if we use position as absolute we can place any where in the web page as top bottom left right    */
+        input{
+            padding: 15px;
+            margin-top: 7px;
+            margin-bottom: 6px;
+        }
+        place{
+            position: relative;
+            width: 210px;
+        }
+        box{
+            color: red;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+
+    </style>
+   
+</head>
+<body>
+    <div class="square1">
+
+    </div>
+    <div class="square2"></div>
+    <div class="place" >
+        <input type="text"  placeholder="somthing...">
+        <div class="box">*</div>
+    </div>
+    <div class="main">
+        <div class="box">
+        </div>
+
+    </div>    
+    <p class="para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo suscipit repudiandae harum fuga, voluptatem dicta temporibus veniam voluptates itaque incidunt doloribus consequatur sapiente ratione tenetur adipisci neque quibusdam odio amet odit qui corrupti distinctio! At amet, tenetur in neque laudantium quia repellendus impedit natus mollitia harum saepe sint exercitationem eaque unde cum optio et temporibus omnis hic laborum soluta. Repellat error laudantium a similique nesciunt architecto sint quam quod corporis maiores deleniti modi, fugit perspiciatis praesentium accusantium accusamus quaerat soluta at necessitatibus mollitia officia voluptatum. Necessitatibus, ipsum beatae blanditiis id fugit magni deleniti, accusantium alias velit libero nemo ratione ut aspernatur labore consequuntur, officiis exercitationem ipsam autem voluptate doloremque quidem. Nostrum ad eos suscipit asperiores quibusdam ipsam perferendis. Harum tempore earum culpa quis enim! Cupiditate consequatur assumenda temporibus ducimus amet quis mollitia veniam pariatur, reprehenderit sunt aperiam sed dolor nulla officiis autem voluptates alias corporis laboriosam explicabo odio eius! Dolorum at quos, architecto, rem dicta dolor molestiae nemo repellat nesciunt delectus voluptatibus quod necessitatibus harum corporis consectetur non nam sed vel dolores reprehenderit. Ad, eos harum. Vitae at in, rerum, fugit harum voluptates necessitatibus, reiciendis maiores praesentium dolorem ipsum voluptate ut numquam porro illo culpa excepturi quibusdam rem repudiandae eum.</p>
+    
+    
+</body>
+</html>
